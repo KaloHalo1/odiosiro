@@ -163,9 +163,10 @@ async def chiudi(ctx, *, reason=None):
     await asyncio.sleep(5)
     await channel.delete()
 
-if name == "main":
+if __name__ == "__main__":
     token = os.getenv("ME_TOKEN")
     if token:
         bot.run(token)
     else:
+
         print("[ERRORE] ME_TOKEN mancante.")
