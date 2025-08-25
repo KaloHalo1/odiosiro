@@ -3,6 +3,7 @@ from discord.ext import commands
 import asyncio
 import datetime
 import pytz
+import os
 
 
 
@@ -170,3 +171,4 @@ if __name__ == "__main__":
     else:
 
         print("[ERRORE] ME_TOKEN mancante.")
+
